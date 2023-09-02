@@ -55,13 +55,13 @@ function Login() {
               <button className="bg-lime-600 rounded-3xl cursor-pointer my-4 p-2 w-full">
                 Sign In
               </button>
-              <div className="flex justify-between items-center text-sm text-gray-600">
+              {/* <div className="flex justify-between items-center text-sm text-gray-600">
                 <p>
                   <input className="mr-2" type="checkbox" />
                   Remember me
                 </p>
                 <p>Need Help?</p>
-              </div>
+              </div> */}
               <p className="py-8">
                 <span className="text-gray-600">Do not have account?</span>{" "}
                 <Link to="/login">Sign Up</Link>
